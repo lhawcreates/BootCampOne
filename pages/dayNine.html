@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Day Nine HTML</title>
+
+
+</head>
+
+<body>
+
+	<header> <h1>Day 9 HTML</h1></header>
+
+	<button type="button" onclick="myFunction()">STOP
+
+		<button type="button" onclick="addText()"> You Should stop That!</button>
+
+
+
+		<form name="myForm" onsubmit="return sayHello ()">
+			Give me your name. <input type="text" name="name">
+
+			<input type="submit" value="Submit">
+
+					<br>
+					<br>
+
+		<button type="button" onclick="addText(Bob)"> No Bob No!</button>
+
+		</form>
+
+		<canvas id="myCanvas" width="200" height="100" style="border:2px solid #16a6f9;">Your browser does not support HTML canvas element.<a href="www.chrome.com"></a>Get Chrome.</canvas>
+
+	<script>
+
+	var c=document.getElementById("myCanvas");
+	var ctx=c.getContext("2d");
+	ctx.fillStyle="#fce116";
+	ctx.fillRect(0,0,150,75);
+
+	ctx.linewidth=2;
+	ctx.beginPath();
+	ctx.moveTo(0,40);
+	ctx.lineTo(30,0);
+	ctx.lineTo(60,40);
+	ctx.lineTo(90,40);
+	ctx.lineTo(0,80);
+	ctx.lineTo(120,40);
+	ctx.lineTo(150,0);
+	ctx.lineTo(180,40);
+	ctx.stroke();
+	ctx.closePath();
+
+	ctx.beginPath();
+	ctx.arc(150,60,20,0,2,*Math.PI);
+	ctx.stroke();
+	ctx.closePath();
+
+	ctx.beginPath();
+	ctx.fillStyle="#000000";
+	ctx.font="30px Arial";
+	ctx.fillText("Hello World",10,50);
+	ctx.closePath();
+
+
+
+	function sayHello()
+{
+	var x=document.forms["myForm"]["name"].value;
+	document.write ("Hello" + x);
+}
+ 
+ 	var a = 3;
+ 	var b = 4;
+ 	var c = a + b;
+ 	var d = "Hello";
+ 	alert(d);
+
+ 	function myFunction ()
+ 	{
+
+ 		alert("In the name of Love!")
+ 	}
+
+ 	function addText (name)
+	{
+
+		document.write("<h3> Or <h1 id=\"name\">" + name + "</h1>you will hurt you!</h3>");
+		document.write("<button type=\"button\" onclick=\"changeColor()\"> Change Color </button>");
+
+ 	}
+
+ 	function changeColor()
+ 	{
+ 		var x =document.getElementById("name");
+ 		x.style.color = "#DC143C";
+ 		if (x.innerHTML == "Bob")
+ 		{
+
+ 			document.write("<h1>No Bob No</h1>")
+ 		}
+ 	}
+
+	</script>
+
+
+
+
+
+</body>
+
+</html>

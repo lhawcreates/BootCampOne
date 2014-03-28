@@ -291,12 +291,13 @@ tr.bestrow{
 
 #col2{
 
-	column-count: 2;
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count: 3;
 	column-width: 75px;
 	column-gap: 10px;
 	column-rule: 2px dotted red;
-	-moz-column-count:3; /* Firefox */
-	-webkit-column-count:3; /* Safari and Chrome */
+
 
 }
 

@@ -1,0 +1,139 @@
+/*Day Six*/
+
+div, section, article, aside, footer, nav{
+
+	display: block;
+}
+
+#asideOne{
+
+	width: 350px;
+	padding: 10px;
+	border: 5px;
+	border-style: dashed;
+	float:right;
+	margin-top: 10px;
+	border-color: purple;
+}
+
+
+div#ourColumns{
+
+	-webkit-column-count:3; /* Safari, Chrome */
+	-webkit-column-gap:20px; /* Safari, Chrome */
+	-moz-column-count:3; /* Firefox */
+	-moz-column-gap:20px; /* Firefox */
+	column-count:3; /* Everyone Else */
+	column-gap:20px;
+	-webkit-column-rule: 10px ridge #ff00ff;
+	-moz-column-rule: 10px ridge #ff00ff;
+	column-outset: 10px ridge#ff00ff;
+	width: auto;
+	background: #bfd255; /* Old browsers */
+background: -moz-linear-gradient(top,  #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bfd255), color-stop(50%,#8eb92a), color-stop(51%,#72aa00), color-stop(100%,#9ecb2d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+
+	background-image: url("../images/flower.jpg");
+	padding: 20px;
+	border:30px dotted purple;
+	background-repeat: no-repeat;
+	background-size: 100px;
+	background-attachment: scroll;
+	/* background-origin: padding-box;
+	background-clip: border-box; */
+	background-origin: padding-box;
+	background-position: top left;
+	text-indent: 100px;
+	text-decoration: overline;
+	background-color: green;
+	
+
+
+}
+
+hr{
+
+	width:90%;
+	height:10px;
+	color:#169C55;
+	background:#169C55;
+
+
+}
+
+article p{
+
+	-webkit-column-count:3; /* Safari, Chrome */
+	-webkit-column-gap:20px; /* Safari, Chrome */
+	-moz-column-count:3; /* Firefox */
+	-moz-column-gap:20px; /* Firefox */
+	column-count:3; /* Everyone Else */
+	column-gap:20px;
+	-webkit-column-rule: 10px ridge #ff00ff;
+	-moz-column-rule: 10px ridge #ff00ff;
+	column-outset: 10px ridge#ff00ff;
+	width: auto;
+	background: #bfd255; /* Old browsers */
+background: -moz-linear-gradient(top,  #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bfd255), color-stop(50%,#8eb92a), color-stop(51%,#72aa00), color-stop(100%,#9ecb2d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+
+
+	padding: 10px;
+	width: 900px;
+	text-indent: 20px;
+	float:left;
+	/*margin: auto; */
+}
+
+span#spanOne{
+
+	font-weight:bold;
+	color:purple;
+	font-size: 20px;
+
+}
+
+p:first-line{
+
+	color:red;
+}
+
+p:after{
+
+	content:" Remember this is the right way.";
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+a#aOne{
+
+
+	text-decoration: none;
+}
+
+a#aOne:hover{
+
+	background-color: white;
+
+		}
+
+#article2{
+
+	float: left;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: red;
+	width: 900px;
+
+}
